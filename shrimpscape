@@ -7,8 +7,7 @@ name = "Shrimpscape";
 #define SHRIMP "ffa87215"
 #define STRPOT "fff4f281"
 #define PPOT "ff44d19a"
-#define ANCBREW "ff44d19a"
-#define BEER "ffa87215"
+
 
 #define FOOD(_name ) if (name:_name && noted:false) { \
     color = SHRIMP; \
@@ -23,11 +22,11 @@ name = "Shrimpscape";
 }
 
 #define PRAYBOOST(_name ) if (name:_name && noted:false) { \
-    color = ANCBREW; \
+    color = PPOT; \
 }
 
 #define FOODBOOST(_name ) if (name:_name && noted:false) { \
-    color = BEER; \
+    color = SHRIMP; \
 }
 
 
@@ -228,6 +227,7 @@ FOOD("Anglerfish")
 FOOD("Cooked dashing kebbit")
 FOOD("Cooked moonlight antelope")
 FOOD("Basket of strawberries")
+FOOD("Snowy knight mix*")
 
 //Encounter-specific foods - COX, TOB, TOA, Moons, Gauntlet/CG, Pest Control
 FOOD("Field ration")
@@ -307,6 +307,9 @@ POTION("Anti-venom+*")
 POTION("Extended anti-venom+*")
 POTION("Divine super combat potion*")
 POTION("Extended super antifire*")
+POTION("Ruby harvest mix")
+POTION("Sapphire glacialis mix")
+POTION("Black warlock mix*")
 
 //COX
 POTION("Elder (*")
@@ -317,11 +320,14 @@ POTION("Overload (*")
 
 //Prayer-restoring items
 PRAY("Jangerberries")
+PRAY("Tonameyo white")
 PRAY("Prayer potion*")
 PRAY("Prayer mix*")
 PRAY("Super restore*")
 PRAY("Super restore mix*")
 PRAY("Sanfew serum*")
+PRAY("Moonlight moth")
+PRAY("Moonlight moth mix*")
 
 //COX
 PRAY("Revitalisation (*")
@@ -402,6 +408,7 @@ FOODBOOST("Half a wild pie")
 FOODBOOST("Summer pie")
 FOODBOOST("Half a summer pie")
 FOODBOOST("Saradomin brew (*)")
+FOODBOOST("Sunlight moth mix*")
 FOODBOOST("* mix(2)")
 FOODBOOST("* mix(1)")
 
