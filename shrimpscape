@@ -7,7 +7,8 @@ name = "Shrimpscape";
 #define SHRIMP "ffa87215"
 #define STRPOT "fff4f281"
 #define PPOT "ff44d19a"
-
+#define ANCBREW "ff44d19a"
+#define BEER "ffa87215"
 
 #define FOOD(_name ) if (name:_name && noted:false) { \
     color = SHRIMP; \
@@ -22,11 +23,11 @@ name = "Shrimpscape";
 }
 
 #define PRAYBOOST(_name ) if (name:_name && noted:false) { \
-    color = PPOT; \
+    color = ANCBREW; \
 }
 
 #define FOODBOOST(_name ) if (name:_name && noted:false) { \
-    color = SHRIMP; \
+    color = BEER; \
 }
 
 
